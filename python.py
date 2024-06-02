@@ -9,7 +9,6 @@ import PoseModule as pm
 st.title("Pushup Counter")
 st.text("This application counts pushups and gives form feedback in real-time.")
 
-# Initialize variables
 cap = cv2.VideoCapture(0)
 detector = pm.poseDetector()
 count = 0
